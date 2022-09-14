@@ -18,7 +18,7 @@
     PrivateData = @{
         PSData = @{
             Tags = @('datetime', 'date', 'time')
-            LicenseUri = ''
+            LicenseUri = 'https://github.com/jacklee1995/jcdatetime-pwsh/blob/main/LICENSE'
             ProjectUri = ''
             IconUri = ''
             ReleaseNotes = ''
