@@ -1,5 +1,5 @@
 #*****************************************************************************
-# Mouule: jcstudio.datetime
+# Mouule: jcdatetime
 # Author: jclee95
 # Chinese name: 李俊才
 # Email: 291148484@163.com
