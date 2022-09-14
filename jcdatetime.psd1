@@ -19,7 +19,7 @@
         PSData = @{
             Tags = @('datetime', 'date', 'time')
             LicenseUri = 'https://github.com/jacklee1995/jcdatetime-pwsh/blob/main/LICENSE'
-            ProjectUri = ''
+            ProjectUri = 'https://github.com/jacklee1995/jcdatetime-pwsh'
             IconUri = ''
             ReleaseNotes = ''
         }
