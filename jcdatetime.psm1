@@ -363,7 +363,7 @@ class Hour {
         $this._value = $h;
     }
 
-    # 通过字符串表示的时间初始化，字符串形如 20:30:00
+    # Initialized by the time represented by a string. 字符串形如 20:30:00
     Hour([string]$time){
         $h, $m, $s = $time.Split(":");
 
@@ -394,7 +394,7 @@ class Hour {
         $this._value = $h;
     } 
 
-    <# 正向行走（时针，即下一小时） #>
+    <# Walk forward (hour hand, that is, the next hour) #>
     [void]next(){
         # 已达 59
         if($this._value -ge 59){
@@ -706,7 +706,7 @@ class DateTime {
         $this.time = [Date]::new($t);
     }
 
-    <# 上一秒，可用作秒倒计时器 #>
+    <# The last second can be used as a second countdown timer. #>
     [void] last_second(){
         $this.time.last_second();
         # 若产生退位
